@@ -35,7 +35,8 @@ To set a USB camera as the default (e.g., `/dev/video0`):
     sudo ln -s /dev/video2 /dev/video0
     ```
 The changes are temperory by default, may not work if the device is disconnected and reconnected or after reboot.
-<br><br>
+
+<br><br><br>
 
 ## Battery Setup
 - Create a `bin` folder in `home` directory, create a new file `toggle_power.sh` and paste the below code in it.
