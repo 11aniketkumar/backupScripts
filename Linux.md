@@ -64,6 +64,7 @@ chmod +x toggle_power.sh
 ~/bin/toggle_power.sh
 ```
 
+<br><br><br>
 
 # Free up Memory
 - Remove cache for not installed packages and all delete packages that are not required by any program.
