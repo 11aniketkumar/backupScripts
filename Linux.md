@@ -63,3 +63,15 @@ chmod +x toggle_power.sh
 ``` bash
 ~/bin/toggle_power.sh
 ```
+
+
+# Free up Memory
+- Remove cache for not installed packages and all delete packages that are not required by any program.
+- Also limit the journalctl size to 50mb.
+
+```bash
+sudo pacman -Sc
+sudo pacman -Qdt
+sudo pacman -Rns $(pacman -Qtdq)
+sudo journalctl --vacuum-size=50M
+```
